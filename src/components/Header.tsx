@@ -49,8 +49,8 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           <BrandMark
-            iconClassName="h-[1.05em] w-[1.05em] shrink-0 text-[var(--accent)]"
-            monogramClassName="text-[1.15em] text-[var(--text)]"
+            iconClassName="h-[0.9em] w-[0.9em] shrink-0 text-[var(--accent)]"
+            monogramClassName="text-[1em] text-[var(--text)]"
             textClassName="leading-none"
           />
         </Link>

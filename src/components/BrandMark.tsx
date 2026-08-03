@@ -12,17 +12,17 @@ type Props = {
 
 export function BrandMark({
   className = "",
-  iconClassName = "h-5 w-5 shrink-0 text-[var(--accent)]",
+  iconClassName = "h-[0.85em] w-[0.85em] shrink-0 text-[var(--accent)]",
   monogramClassName = "",
   textClassName = "",
   as: Tag = "span",
 }: Props) {
   return (
     <Tag
-      className={`inline-flex items-center gap-2.5 whitespace-nowrap ${className}`}
+      className={`inline-flex items-baseline gap-[0.35em] whitespace-nowrap ${className}`}
       aria-label={siteConfig.name}
     >
-      <ScissorsIcon className={iconClassName} />
+      <ScissorsIcon className={`relative top-[0.08em] ${iconClassName}`} />
       <KKMonogram className={monogramClassName} />
       <span className={textClassName}>{siteConfig.wordmark}</span>
     </Tag>

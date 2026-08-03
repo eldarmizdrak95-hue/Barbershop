@@ -6,11 +6,11 @@ type Props = {
 export function KKMonogram({ className = "" }: Props) {
   return (
     <span
-      className={`kk-monogram inline-flex flex-col items-center leading-none ${className}`}
+      className={`kk-monogram relative inline-flex items-center leading-none ${className}`}
       aria-hidden="true"
     >
       <svg
-        className="kk-crown mb-[0.08em] h-[0.42em] w-[0.95em] text-[var(--accent)]"
+        className="pointer-events-none absolute bottom-full left-1/2 mb-[0.06em] h-[0.38em] w-[0.9em] -translate-x-1/2 text-[var(--accent)]"
         viewBox="0 0 40 16"
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
