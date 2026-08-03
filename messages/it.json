@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Barbershop | Taglio, barba e stile",
-    "description": "Barbershop moderno. Prenota il tuo appuntamento online. Taglio, barba e trattamenti uomo."
+    "title": "KK Barbershop | Taglio, barba e stile",
+    "description": "KK Barbershop — salone moderno. Prenota il tuo appuntamento online. Taglio, barba e trattamenti uomo."
   },
   "Nav": {
     "about": "Chi siamo",
@@ -13,7 +13,7 @@
     "whatsapp": "WhatsApp"
   },
   "Hero": {
-    "brand": "Barbershop",
+    "brand": "KK Barbershop",
     "headline": "Il tuo stile, la nostra firma.",
     "subtitle": "Taglio preciso, barba curata e atmosfera da autentico salone.",
     "ctaBook": "Prenota ora",

@@ -3,7 +3,7 @@
  * Swap these values per client to reuse the same template.
  */
 export const siteConfig = {
-  name: "Barbershop",
+  name: "KK Barbershop",
   tagline: {
     it: "Stile. Precisione. Tradizione.",
     en: "Style. Precision. Tradition.",

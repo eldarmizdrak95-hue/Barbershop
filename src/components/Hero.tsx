@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { siteConfig } from "@/config/site";
+import { BrandMark } from "./BrandMark";
 
 export async function Hero() {
   const t = await getTranslations("Hero");
@@ -19,11 +20,13 @@ export async function Hero() {
       </div>
 
       <div className="container flex min-h-[100svh] flex-col justify-end pb-16 pt-28 sm:pb-20 md:justify-center md:pb-24">
-        <p className="reveal eyebrow !mb-4 text-[0.8rem]">{t("brand")}</p>
-        <h1 className="reveal reveal-delay-1 max-w-[11ch] font-[family-name:var(--font-display)] text-[clamp(3.2rem,9vw,6.5rem)] leading-[0.95] font-medium tracking-[0.02em]">
-          {siteConfig.name}
-        </h1>
-        <p className="reveal reveal-delay-2 mt-5 max-w-xl text-[clamp(1.15rem,2.4vw,1.55rem)] text-[var(--text)]/90">
+        <BrandMark
+          as="h1"
+          className="reveal max-w-[14ch] font-[family-name:var(--font-display)] text-[clamp(2.6rem,7.5vw,5.5rem)] leading-[0.95] font-medium tracking-[0.02em]"
+          iconClassName="mt-[0.12em] h-[0.72em] w-[0.72em] shrink-0 text-[var(--accent)]"
+          textClassName="uppercase"
+        />
+        <p className="reveal reveal-delay-1 mt-5 max-w-xl text-[clamp(1.15rem,2.4vw,1.55rem)] text-[var(--text)]/90">
           {t("headline")}
         </p>
         <p className="reveal reveal-delay-2 mt-3 max-w-md text-[var(--text-muted)]">

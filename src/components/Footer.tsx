@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { siteConfig } from "@/config/site";
+import { BrandMark } from "./BrandMark";
 
 export async function Footer() {
   const t = await getTranslations("Footer");
@@ -9,9 +10,11 @@ export async function Footer() {
     <footer className="relative z-1 border-t border-[var(--line)]">
       <div className="container flex flex-col gap-6 py-10 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="font-[family-name:var(--font-display)] text-xl tracking-[0.16em] uppercase">
-            {siteConfig.name}
-          </p>
+          <BrandMark
+            as="p"
+            className="font-[family-name:var(--font-display)] text-xl tracking-[0.12em] uppercase"
+            iconClassName="h-5 w-5 shrink-0 text-[var(--accent)]"
+          />
           <p className="mt-2 max-w-sm text-sm text-[var(--text-muted)]">
             {t("demo")}
           </p>

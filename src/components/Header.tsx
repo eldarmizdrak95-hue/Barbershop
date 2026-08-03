@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig, whatsappUrl } from "@/config/site";
+import { BrandMark } from "./BrandMark";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const links = [
@@ -44,10 +45,13 @@ export function Header() {
       <div className="container flex h-[4.25rem] items-center justify-between gap-4">
         <Link
           href="/"
-          className="font-[family-name:var(--font-display)] text-lg tracking-[0.18em] uppercase"
+          className="font-[family-name:var(--font-display)] text-[0.95rem] tracking-[0.14em] uppercase sm:text-lg sm:tracking-[0.16em]"
           onClick={() => setOpen(false)}
         >
-          {siteConfig.name}
+          <BrandMark
+            iconClassName="h-[1.05em] w-[1.05em] shrink-0 text-[var(--accent)]"
+            textClassName="leading-none"
+          />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">

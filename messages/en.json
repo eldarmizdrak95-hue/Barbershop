@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Barbershop | Cuts, beard & style",
-    "description": "Modern barbershop. Book your appointment online. Haircuts, beard grooming and men's treatments."
+    "title": "KK Barbershop | Cuts, beard & style",
+    "description": "KK Barbershop — modern salon. Book your appointment online. Haircuts, beard grooming and men's treatments."
   },
   "Nav": {
     "about": "About",
@@ -13,7 +13,7 @@
     "whatsapp": "WhatsApp"
   },
   "Hero": {
-    "brand": "Barbershop",
+    "brand": "KK Barbershop",
     "headline": "Your style, our signature.",
     "subtitle": "Precise cuts, refined beards, and the feel of a true classic shop.",
     "ctaBook": "Book now",
