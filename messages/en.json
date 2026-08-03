@@ -1,0 +1,125 @@
+{
+  "Meta": {
+    "title": "Barbershop | Cuts, beard & style",
+    "description": "Modern barbershop. Book your appointment online. Haircuts, beard grooming and men's treatments."
+  },
+  "Nav": {
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "booking": "Book",
+    "contact": "Contact",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "Hero": {
+    "brand": "Barbershop",
+    "headline": "Your style, our signature.",
+    "subtitle": "Precise cuts, refined beards, and the feel of a true classic shop.",
+    "ctaBook": "Book now",
+    "ctaCall": "Call"
+  },
+  "About": {
+    "eyebrow": "About",
+    "title": "Tradition meets the contemporary",
+    "body": "From the first cut to the final detail, we work with classic techniques and selected products. Every client gets personal attention in a refined, relaxed, professional space.",
+    "stat1Value": "12+",
+    "stat1Label": "Years of experience",
+    "stat2Value": "4",
+    "stat2Label": "Expert barbers",
+    "stat3Value": "5k+",
+    "stat3Label": "Happy clients"
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "What we offer",
+    "subtitle": "Treatments built for a sharp look that lasts.",
+    "items": {
+      "cut": {
+        "name": "Men's haircut",
+        "desc": "Consultation, cut and final styling.",
+        "price": "€25",
+        "duration": "30 min"
+      },
+      "beard": {
+        "name": "Beard",
+        "desc": "Shape, shave and skin care.",
+        "price": "€18",
+        "duration": "25 min"
+      },
+      "cutBeard": {
+        "name": "Cut + beard",
+        "desc": "The full package: cut, beard and finish.",
+        "price": "€38",
+        "duration": "50 min"
+      },
+      "shave": {
+        "name": "Classic shave",
+        "desc": "Hot towel, straight razor and aftershave.",
+        "price": "€22",
+        "duration": "30 min"
+      },
+      "kids": {
+        "name": "Kids cut",
+        "desc": "A gentle cut for the little ones.",
+        "price": "€18",
+        "duration": "25 min"
+      },
+      "color": {
+        "name": "Color / camo",
+        "desc": "Beard or hair coverage with a natural finish.",
+        "price": "€30",
+        "duration": "40 min"
+      }
+    }
+  },
+  "Gallery": {
+    "eyebrow": "Gallery",
+    "title": "Our work",
+    "subtitle": "A selection of cuts and details from the shop."
+  },
+  "Booking": {
+    "eyebrow": "Booking",
+    "title": "Reserve your spot",
+    "subtitle": "Fill in the form — we'll open WhatsApp with your request ready to send.",
+    "name": "Full name",
+    "namePlaceholder": "John Smith",
+    "phone": "Phone",
+    "phonePlaceholder": "+39 333 000 0000",
+    "service": "Service",
+    "servicePlaceholder": "Select a service",
+    "date": "Date",
+    "time": "Time",
+    "pickDateFirst": "Pick a date from the calendar first.",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "notes": "Notes (optional)",
+    "notesPlaceholder": "Preferences, barber, allergies…",
+    "submitWhatsapp": "Send on WhatsApp",
+    "submitCall": "Call now",
+    "required": "Required field",
+    "successHint": "WhatsApp will open with your booking message.",
+    "demoNote": "Demo: phone numbers are placeholders — perfect for showing one site to multiple clients."
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "title": "Come visit us",
+    "subtitle": "We're in the city center. Book or message anytime.",
+    "address": "Address",
+    "hours": "Hours",
+    "phone": "Phone",
+    "email": "Email",
+    "monFri": "Mon – Fri",
+    "sat": "Saturday",
+    "sun": "Sunday",
+    "closed": "Closed",
+    "openMap": "Open map",
+    "writeWhatsapp": "Message on WhatsApp"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "demo": "Demo template for multiple clients — customize via config.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

@@ -1,0 +1,44 @@
+import { getTranslations } from "next-intl/server";
+import { siteConfig } from "@/config/site";
+
+export async function Footer() {
+  const t = await getTranslations("Footer");
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="relative z-1 border-t border-[var(--line)]">
+      <div className="container flex flex-col gap-6 py-10 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="font-[family-name:var(--font-display)] text-xl tracking-[0.16em] uppercase">
+            {siteConfig.name}
+          </p>
+          <p className="mt-2 max-w-sm text-sm text-[var(--text-muted)]">
+            {t("demo")}
+          </p>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-5 text-sm text-[var(--text-muted)]">
+          <a
+            href={siteConfig.social.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[var(--accent)]"
+          >
+            Instagram
+          </a>
+          <a
+            href={siteConfig.social.facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[var(--accent)]"
+          >
+            Facebook
+          </a>
+          <span>
+            © {year} {siteConfig.name}. {t("rights")}
+          </span>
+        </div>
+      </div>
+    </footer>
+  );
+}

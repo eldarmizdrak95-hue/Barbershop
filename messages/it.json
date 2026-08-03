@@ -1,0 +1,125 @@
+{
+  "Meta": {
+    "title": "Barbershop | Taglio, barba e stile",
+    "description": "Barbershop moderno. Prenota il tuo appuntamento online. Taglio, barba e trattamenti uomo."
+  },
+  "Nav": {
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "gallery": "Gallery",
+    "booking": "Prenota",
+    "contact": "Contatti",
+    "call": "Chiama",
+    "whatsapp": "WhatsApp"
+  },
+  "Hero": {
+    "brand": "Barbershop",
+    "headline": "Il tuo stile, la nostra firma.",
+    "subtitle": "Taglio preciso, barba curata e atmosfera da autentico salone.",
+    "ctaBook": "Prenota ora",
+    "ctaCall": "Chiama"
+  },
+  "About": {
+    "eyebrow": "Chi siamo",
+    "title": "Tradizione che incontra il contemporaneo",
+    "body": "Dal primo taglio all’ultimo dettaglio, lavoriamo con tecniche classiche e prodotti selezionati. Ogni cliente riceve attenzione personale in un ambiente curato, rilassato e professionale.",
+    "stat1Value": "12+",
+    "stat1Label": "Anni di esperienza",
+    "stat2Value": "4",
+    "stat2Label": "Barbieri esperti",
+    "stat3Value": "5k+",
+    "stat3Label": "Clienti soddisfatti"
+  },
+  "Services": {
+    "eyebrow": "Servizi",
+    "title": "Cosa offriamo",
+    "subtitle": "Trattamenti pensati per chi vuole un look netto e duraturo.",
+    "items": {
+      "cut": {
+        "name": "Taglio uomo",
+        "desc": "Consulenza, taglio e styling finale.",
+        "price": "€25",
+        "duration": "30 min"
+      },
+      "beard": {
+        "name": "Barba",
+        "desc": "Modellatura, rasatura e cura della pelle.",
+        "price": "€18",
+        "duration": "25 min"
+      },
+      "cutBeard": {
+        "name": "Taglio + barba",
+        "desc": "Il completo: taglio, barba e finish.",
+        "price": "€38",
+        "duration": "50 min"
+      },
+      "shave": {
+        "name": "Rasatura classica",
+        "desc": "Asciugamano caldo, rasoio e aftershave.",
+        "price": "€22",
+        "duration": "30 min"
+      },
+      "kids": {
+        "name": "Taglio bambino",
+        "desc": "Taglio delicato per i più piccoli.",
+        "price": "€18",
+        "duration": "25 min"
+      },
+      "color": {
+        "name": "Colore / camo",
+        "desc": "Copertura barba o capelli, risultato naturale.",
+        "price": "€30",
+        "duration": "40 min"
+      }
+    }
+  },
+  "Gallery": {
+    "eyebrow": "Gallery",
+    "title": "Il nostro lavoro",
+    "subtitle": "Una selezione di tagli e dettagli dal salone."
+  },
+  "Booking": {
+    "eyebrow": "Prenotazione",
+    "title": "Prenota il tuo posto",
+    "subtitle": "Compila il form: ti apriremo WhatsApp con la richiesta pronta da inviare.",
+    "name": "Nome e cognome",
+    "namePlaceholder": "Mario Rossi",
+    "phone": "Telefono",
+    "phonePlaceholder": "+39 333 000 0000",
+    "service": "Servizio",
+    "servicePlaceholder": "Seleziona un servizio",
+    "date": "Data",
+    "time": "Orario",
+    "pickDateFirst": "Prima scegli una data dal calendario.",
+    "prevMonth": "Mese precedente",
+    "nextMonth": "Mese successivo",
+    "notes": "Note (opzionale)",
+    "notesPlaceholder": "Preferenze, barbiere, allergie…",
+    "submitWhatsapp": "Invia su WhatsApp",
+    "submitCall": "Chiama ora",
+    "required": "Campo obbligatorio",
+    "successHint": "Si aprirà WhatsApp con il messaggio di prenotazione.",
+    "demoNote": "Demo: i numeri sono di esempio, ideali per mostrare il sito ai clienti."
+  },
+  "Contact": {
+    "eyebrow": "Contatti",
+    "title": "Vieni a trovarci",
+    "subtitle": "Siamo nel centro città. Prenota o scrivici quando vuoi.",
+    "address": "Indirizzo",
+    "hours": "Orari",
+    "phone": "Telefono",
+    "email": "Email",
+    "monFri": "Lun – Ven",
+    "sat": "Sabato",
+    "sun": "Domenica",
+    "closed": "Chiuso",
+    "openMap": "Apri mappa",
+    "writeWhatsapp": "Scrivi su WhatsApp"
+  },
+  "Footer": {
+    "rights": "Tutti i diritti riservati.",
+    "demo": "Template demo per più clienti — personalizza da config.",
+    "privacy": "Privacy",
+    "terms": "Termini"
+  }
+}
