@@ -21,7 +21,7 @@ export function KKMonogram({ className = "" }: Props) {
         <circle cx="20" cy="2" r="1.5" />
         <circle cx="31.8" cy="4.4" r="1.35" />
       </svg>
-      <span className="inline-flex items-baseline font-[family-name:var(--font-display)] font-semibold tracking-[-0.04em]">
+      <span className="inline-flex items-baseline font-[family-name:var(--font-display)] font-bold tracking-[-0.04em]">
         <span className="inline-block origin-center scale-x-[-1]">K</span>
         <span>K</span>
       </span>

@@ -12,9 +12,10 @@ export async function Footer() {
         <div>
           <BrandMark
             as="p"
-            className="pt-[0.35em] font-[family-name:var(--font-display)] text-xl tracking-[0.1em] uppercase"
+            className="pt-[0.35em] font-[family-name:var(--font-display)] text-2xl font-bold tracking-[0.08em] uppercase sm:text-3xl"
             iconClassName="h-[0.9em] w-[0.9em] shrink-0 text-[var(--accent)]"
             monogramClassName="text-[1em] text-[var(--text)]"
+            textClassName="font-bold"
           />
           <p className="mt-2 max-w-sm text-sm text-[var(--text-muted)]">
             {t("demo")}

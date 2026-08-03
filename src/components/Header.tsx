@@ -45,13 +45,13 @@ export function Header() {
       <div className="container flex h-[4.25rem] items-center justify-between gap-4">
         <Link
           href="/"
-          className="font-[family-name:var(--font-display)] text-[0.95rem] tracking-[0.14em] uppercase sm:text-lg sm:tracking-[0.16em]"
+          className="font-[family-name:var(--font-display)] text-lg font-bold tracking-[0.1em] uppercase sm:text-xl sm:tracking-[0.12em]"
           onClick={() => setOpen(false)}
         >
           <BrandMark
             iconClassName="h-[0.9em] w-[0.9em] shrink-0 text-[var(--accent)]"
             monogramClassName="text-[1em] text-[var(--text)]"
-            textClassName="leading-none"
+            textClassName="leading-none font-bold"
           />
         </Link>
 
