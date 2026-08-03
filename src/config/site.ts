@@ -4,6 +4,7 @@
  */
 export const siteConfig = {
   name: "KK Barbershop",
+  wordmark: "Barbershop",
   tagline: {
     it: "Stile. Precisione. Tradizione.",
     en: "Style. Precision. Tradition.",

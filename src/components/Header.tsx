@@ -50,6 +50,7 @@ export function Header() {
         >
           <BrandMark
             iconClassName="h-[1.05em] w-[1.05em] shrink-0 text-[var(--accent)]"
+            monogramClassName="text-[1.15em] text-[var(--text)]"
             textClassName="leading-none"
           />
         </Link>

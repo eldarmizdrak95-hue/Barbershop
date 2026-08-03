@@ -22,8 +22,9 @@ export async function Hero() {
       <div className="container flex min-h-[100svh] flex-col justify-end pb-16 pt-28 sm:pb-20 md:justify-center md:pb-24">
         <BrandMark
           as="h1"
-          className="reveal max-w-[14ch] font-[family-name:var(--font-display)] text-[clamp(2.6rem,7.5vw,5.5rem)] leading-[0.95] font-medium tracking-[0.02em]"
-          iconClassName="mt-[0.12em] h-[0.72em] w-[0.72em] shrink-0 text-[var(--accent)]"
+          className="reveal font-[family-name:var(--font-display)] text-[clamp(1.55rem,5.2vw,3.75rem)] leading-none font-medium tracking-[0.04em]"
+          iconClassName="h-[0.78em] w-[0.78em] shrink-0 text-[var(--accent)]"
+          monogramClassName="text-[1.08em] text-[var(--text)]"
           textClassName="uppercase"
         />
         <p className="reveal reveal-delay-1 mt-5 max-w-xl text-[clamp(1.15rem,2.4vw,1.55rem)] text-[var(--text)]/90">
